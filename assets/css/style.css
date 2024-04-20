@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic site styles */
+    color: #0C0D13
+
+}
+
 /*Header*/
 header {
     background-color: lightgray;
@@ -13,6 +23,8 @@ header {
 /*Main Content*/
 main {
     background-color: white;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 /*Footer*/
