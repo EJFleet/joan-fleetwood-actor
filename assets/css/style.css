@@ -1,6 +1,15 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+/* Variables for colours */
+:root {
+    --black:  #0C0D13;
+    --white:  #ffffff;
+    --grey:   #CDC8C6;
+    --accent: #C4515D;
+    --dark:   #777271;
+  }
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -14,13 +23,17 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic site styles */
-    color: #0C0D13;
+    color: var(--black);
     font-family: 'Inter', sans-serif;
 }
 
 /*Header*/
 header {
-    background-color: lightgray;
+    background-color: var(--grey);
+    padding: 0 1rem;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
 }
 
 h1 {
@@ -29,12 +42,12 @@ h1 {
 
 /*Main Content*/
 main {
-    background-color: white;
+    background-color: var(--white);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /*Footer*/
 footer {
-    background-color: gray;
+    background-color: var(--dark);
 }
