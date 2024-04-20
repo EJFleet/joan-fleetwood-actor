@@ -14,7 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic site styles */
-    color: #0C0D13
+    color: #0C0D13;
+    font-family: 'Inter', sans-serif;
 }
 
 /*Header*/
