@@ -23,6 +23,10 @@ header {
     background-color: lightgray;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*Main Content*/
 main {
     background-color: white;
