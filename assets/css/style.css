@@ -36,8 +36,51 @@ header {
     z-index: 99;
 }
 
-h1 {
+/*Remove underline from and change colour of links*/
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+#main-heading {
+    margin: 5px auto;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: .5em;
+}
+
+/*Navbar styles with dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: var(--grey);
+    padding: 0 1rem;
+    width: 100%;
+    left: 0;
+    display: none;
+    
 }
 
 /*Main Content*/
