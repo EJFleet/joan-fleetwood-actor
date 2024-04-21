@@ -34,6 +34,9 @@ header {
     width: 100%;
     position: fixed;
     z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /*Remove underline from and change colour of links*/
@@ -80,7 +83,20 @@ nav {
     width: 100%;
     left: 0;
     display: none;
-    
+    top: 100%;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /*Main Content*/
@@ -88,6 +104,7 @@ main {
     background-color: var(--white);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 60px;
 }
 
 /*Footer*/
