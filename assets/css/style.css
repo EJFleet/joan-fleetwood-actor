@@ -111,3 +111,43 @@ main {
 footer {
     background-color: var(--dark);
 }
+
+/*Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /*Header*/
+
+    header {
+        position: relative;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        bottom: 0;
+        left: -15%;
+        top: 57px;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+    
+    #main-heading {
+        font-size: 150%;
+        line-height: 60px;
+        margin-left: 20%;
+    }
+
+    main {
+        margin-top: 0;
+    }
+}
