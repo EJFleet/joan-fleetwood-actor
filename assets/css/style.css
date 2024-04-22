@@ -101,10 +101,18 @@ nav {
 
 /*Main Content*/
 main {
-    background-color: var(--white);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 60px;
+}
+
+/*About section*/
+
+/*Hero image*/
+
+#blue-headshot {
+    max-width: 100%;
+    height: auto;
 }
 
 /*Footer*/
