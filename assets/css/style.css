@@ -27,6 +27,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+
 /*Header*/
 header {
     background-color: var(--grey);
@@ -59,6 +60,10 @@ h1 {
 h2 {
     font-weight: 300;
     font-size: 1em;
+}
+
+h3 {
+    color: var(--accent);
 }
 
 #main-heading {
@@ -115,11 +120,18 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #blue-headshot {
     max-width: 100%;
     height: auto;
+}
+
+/*About paragraph*/
+
+#about-paragraph {
+    margin-top: 2em;
 }
 
 /*Footer*/
@@ -172,22 +184,27 @@ footer {
         display: flex;
     }
 
+    #hero-image,
+    #about-div {
+        display: flex;
+        flex-direction: column;
+    }
+
     #hero-image {
         width: 35vw;
         margin-left: 12vw;
     }
 
-    #intro {
-        width: 33vw;
+    #about-div {
+        width: 30vw;
         margin-top: 50px;
-        margin-right: 14vw
+        margin-right: 14vw;
+        margin-left: 5em;
+        
     }
 
-    #hero-image,
-    #intro {
-        display: flex;
-        flex-direction: column;
-    }
+
+  
 }
 
 /*Media query: tablets and larger (992px and up) */
