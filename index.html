@@ -1,102 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tags for search engines -->
-    <meta name="description" content="Joan Fleetwood | Female Actor 60+ living in Dublin, Ireland. Experienced in acting in film, theatre, commercials and more.">
-    <meta name="keywords" content="actor, female actor, Irish actor, Irish actress, Dublin actor, actor age 60+, theatre actor, film actor, Matriarch, commercial actor">
-    <!-- Title -->
-    <title>Joan Fleetwood | Actor & Model</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/favicons/clapperboard-solid.svg">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--JavaScript for favicons-->
-    <script src="https://kit.fontawesome.com/96811ac200.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta tags for search engines -->
+  <meta name="description"
+    content="Joan Fleetwood | Female Actor 60+ living in Dublin, Ireland. Experienced in acting in film, theatre, commercials and more.">
+  <meta name="keywords"
+    content="actor, female actor, Irish actor, Irish actress, Dublin actor, actor age 60+, theatre actor, film actor, Matriarch, commercial actor">
+  <!-- Title -->
+  <title>Joan Fleetwood | Actor & Model</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/clapperboard-solid.svg">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--JavaScript for favicons-->
+  <script src="https://kit.fontawesome.com/96811ac200.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-      <!-- Logo -->    
-      <div id="main-heading">
-        <a href="index.html">
-          <h1 id="logo">Joan Fleetwood</h1>
-          <h2 id="tagline">Actor & Model | Dublin, IRL </h2>
-        </a>
+  <!-- Header -->
+  <header>
+    <!-- Logo -->
+    <div id="main-heading">
+      <a href="index.html">
+        <h1 id="logo">Joan Fleetwood</h1>
+        <h2 id="tagline">Actor & Model | Dublin, IRL </h2>
+      </a>
+    </div>
+    <!--Toggle for dropdown menu-->
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">x</label>
+    <!-- Navigation bar -->
+    <nav>
+      <ul id="menu">
+        <li><a href="">About</a></li>
+        <li><a href="">Resume</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!--About section-->
+    <section id="about">
+
+      <!--First image-->
+      <div id="hero-image">
+        <img id="blue-headshot" src="assets/images/Joan Fleetwood blue.jpg"
+          alt=" headshot of Joan Fleetwood in a blue dress">
       </div>
-      <!--Toggle for dropdown menu-->
-      <input type="checkbox" id="nav-toggle" name="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label">x</label>
-      <!-- Navigation bar -->
-      <nav>
-        <ul id="menu">
-            <li><a href="">About</a></li>
-            <li><a href="">Resume</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
 
-    </header>
-
-    <!-- Main Content -->
-    <main>
-      <!--About section-->
-      <section id="about">
-
-        <!--First image-->
-        <div id="hero-image">
-          <img id="blue-headshot" src="assets/images/Joan Fleetwood blue.jpg" alt=" headshot of Joan Fleetwood in a blue dress">
-        </div>
-
-        <!--About Me-->
-        <div  id="about-me">
-          <div>
+      <!--About Me-->
+      <div id="about-me">
+        <div>
           <h3>About Me</h3>
           <p id="about-paragraph">My acting age is 55-65. I am slim with blonde hair, blue eyes and I'm 5 ft. 5 inches.
-            I have trained extensively for the last six years. For three years I've been training with Robbie Byrne in Momentum Acting Studio in the Meisner Technique. It is my preferred method of acting. I've acted on stage with Umbrella Theatre in The National Gallery and The Players Theatre in
-            Trinity College. I have had roles in some short films and in a feature film shot with Zanzibar Productions.</p>
-          </div>
-         <!--Showreel-->
-         <div id="showreel">
-          <h3>Showreel</h3>
-          <video src="assets/videos/Joan_Fleetwood_Showreel.mp4" width="100%" controls id="showreel-video"><p>Your browser does not support html video. Please go to https://vimeo.com/333701678</p></video>
-          </div>
+            I have trained extensively for the last six years. For three years I've been training with Robbie Byrne in
+            Momentum Acting Studio in the Meisner Technique. It is my preferred method of acting. I've acted on stage
+            with Umbrella Theatre in The National Gallery and The Players Theatre in
+            Trinity College. I have had roles in some short films and in a feature film shot with Zanzibar Productions.
+          </p>
         </div>
-
-       
-        
-
-      </section>
-
-      <section id="resume">
-        Resume
-      </section>
-
-      <section id="contact">
-        <form method="POST" action="https://formdump.codeinstitute.net" id="contact-form">
-          <h3><i class="fa-solid fa-clapperboard"></i>Get in touch</h3>
-          <label for="first-name">First name</label>
-          <input type="text" class="text-input" id="first-name" required>
-          <label for="last-name">Last name</label>
-          <input type="text" class="text-input" id="last-name" required>
-          <label for="email-address">Email</label>
-          <input type="email" class="text-input" id="email-address" required>
-          <label for="message-box">Message</label>
-          <input type="text" class="text-input" id="message-box" required>
-
-          <input type="submit" class="join-button">
-        </form>
- 
-      </section>
+        <!--Showreel-->
+        <div id="showreel">
+          <h3>Showreel</h3>
+          <video src="assets/videos/Joan_Fleetwood_Showreel.mp4" width="100%" controls id="showreel-video">
+            <p>Your browser does not support html video. Please go to https://vimeo.com/333701678</p>
+          </video>
+        </div>
+      </div>
 
 
 
 
-    </main>
+    </section>
 
-    <!-- Footer -->
-    <footer>Footer</footer>
-    
+    <section id="resume">
+      Resume
+    </section>
+
+    <section id="contact">
+      <form method="POST" action="https://formdump.codeinstitute.net" id="contact-form">
+        <h3><i class="fa-solid fa-clapperboard"></i> Get in touch</h3>
+        <label for="first-name">First name</label>
+        <input type="text" class="text-input" id="first-name" required>
+        <label for="last-name">Last name</label>
+        <input type="text" class="text-input" id="last-name" required>
+        <label for="email-address">Email</label>
+        <input type="email" class="text-input" id="email-address" required>
+        <label for="message-box">Message</label>
+        <input type="text" class="text-input" id="message-box" required>
+
+        <div class="join-button-container">
+          <input type="submit" value="Submit" class="join-button">
+        </div>
+      </form>
+
+    </section>
+
+
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer>Footer</footer>
+
 </body>
+
 </html>

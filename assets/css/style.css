@@ -14,7 +14,6 @@
     --large-heading: 'Montserrat', sans-serif;
     --small-heading: 'Roboto', sans-serif;
     --body-text: 'Inter', sans-serif;
-
   }
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -115,7 +114,11 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    /*Add margin at top to prevent content being covered by header*/
     margin-top: 60px;
+    /*Enable flex properties for child elements*/
+    display: flex;
+    flex-direction: column;
 }
 
 /*About section*/
@@ -152,6 +155,62 @@ main {
     margin-top: 2rem;
 }
  
+/*Contact Form*/
+
+#contact {
+    padding: 1rem 10% 0 10%;
+    flex-grow: 1;
+    margin-bottom: 2rem;
+}
+
+#contact-form {
+    padding: 1rem;
+    color: var(--white);
+    background-color: var(--dark);
+    opacity: 0.6;
+}
+
+#contact-form h3 {
+    color: var(--white);
+}
+
+.text-input {
+vertical-align: top;
+width: 100%;
+}
+
+/*Colour around input box when focused*/
+    /*How to get rid of original :focus?*/
+.text-input:focus {
+    border: 3px solid var(--accent);
+}
+
+
+#message-box {
+height: 5rem;
+}
+
+/*Submit button*/
+
+#contact-form .join-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.join-button {
+    background-color: var(--accent);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 100%;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+}
+
+.join-button:hover {
+    background-color: #C53847;
+}
+
+
 /*Footer*/
 footer {
     background-color: var(--dark);
