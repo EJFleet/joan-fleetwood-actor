@@ -3,11 +3,18 @@
 
 /* Variables for colours */
 :root {
+    /*colours*/
     --black:  #0C0D13;
     --white:  #ffffff;
     --grey:   #CDC8C6;
     --accent: #C4515D;
     --dark:   #777271;
+
+    /*fonts*/
+    --large-heading: 'Montserrat', sans-serif;
+    --small-heading: 'Roboto', sans-serif;
+    --body-text: 'Inter', sans-serif;
+
   }
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -24,7 +31,7 @@ body {
     flex-direction: column;
     /* Generic site styles */
     color: var(--black);
-    font-family: 'Inter', sans-serif;
+    font-family: var(--body-text);
 }
 
 
@@ -48,18 +55,18 @@ header a {
 
 h1,
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--large-heading);
 }
 
 h1 {
     letter-spacing: 2px;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 h2 {
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 h3 {
@@ -77,7 +84,7 @@ h3 {
 }
 
 #menu > li {
-    margin-bottom: .5em;
+    margin-bottom: .5rem;
 }
 
 /*Navbar styles with dropdown toggle*/
@@ -119,8 +126,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 
 #blue-headshot {
@@ -130,10 +136,22 @@ main {
 
 /*About paragraph*/
 
-#about-paragraph {
-    margin-top: 2em;
+#about-paragraph, 
+#showreel-video {
+    margin-top: 1rem;
 }
 
+#about-me {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/*Showreel*/
+
+#showreel {
+    margin-top: 2rem;
+}
+ 
 /*Footer*/
 footer {
     background-color: var(--dark);
@@ -185,9 +203,10 @@ footer {
     }
 
     #hero-image,
-    #about-div {
+    #about-me {
         display: flex;
         flex-direction: column;
+        margin-top: 2rem;
     }
 
     #hero-image {
@@ -195,22 +214,21 @@ footer {
         margin-left: 12vw;
     }
 
-    #about-div {
+    #about-me {
         width: 30vw;
-        margin-top: 50px;
         margin-right: 14vw;
-        margin-left: 5em;
-        
+        margin-left: 5rem;        
     }
 
 
-  
 }
 
-/*Media query: tablets and larger (992px and up) */
+/*Media query: landscape tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         color: var(--accent);
         border-bottom: 1px solid var(--accent);
     }
+
+   
 }
