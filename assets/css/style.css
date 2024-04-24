@@ -120,7 +120,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /*Add margin at top to prevent content being covered by header*/
-    margin-top: 60px;
+    margin-top: 62px;
     /*Enable flex properties for child elements*/
     display: flex;
     flex-direction: column;
