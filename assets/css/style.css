@@ -172,12 +172,16 @@ main {
 
 #contact-form h3 {
     color: var(--white);
+    margin-bottom: 1rem;
 }
 
 .text-input {
 vertical-align: top;
 width: 100%;
+margin-bottom: .5rem;
+margin-top: .25rem;
 }
+
 
 /*Colour around input box when focused*/
     /*How to get rid of original :focus?*/
@@ -204,6 +208,7 @@ height: 5rem;
     font-size: 100%;
     padding: 1rem 2rem;
     margin: 1rem 0;
+    cursor: pointer;
 }
 
 .join-button:hover {
