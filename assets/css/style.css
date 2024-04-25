@@ -55,6 +55,7 @@ header a {
 h1,
 h2 {
     font-family: var(--large-heading);
+    padding: 0;
 }
 
 h1 {
@@ -73,7 +74,8 @@ h3 {
 }
 
 #main-heading {
-    margin: 5px auto;
+    margin: 0;
+    padding: 0 auto 6px;
 }
 
 /*Navigation*/
@@ -109,10 +111,14 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
     color: var(--black);
 }
 
+.nav-toggle-label i {
+    padding: 10px;
+    margin: 0;
+    font-size: 2rem;
+}
 
 
 /*Main Content*/
@@ -120,7 +126,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /*Add margin at top to prevent content being covered by header*/
-    margin-top: 62px;
+    margin-top: 60px;
     /*Enable flex properties for child elements*/
     display: flex;
     flex-direction: column;
