@@ -277,8 +277,9 @@ footer {
 
 /*Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-   .work-div {
-    width: 100%;
+   #photos {
+    column-count: 2;
+    column-gap: 0;
    }
 }
 
@@ -357,6 +358,11 @@ footer {
         flex-direction: column;
     }
 
+    /*Gallery section - 768px+*/
+    #photos {
+        column-count: 3;
+    }
+
     /*Contact section - 768px+*/
    
     #contact-form {
@@ -366,12 +372,16 @@ footer {
 
 }
 
-/*Media query: landscape tablets and larger (992px and up) */
+/*Media query: landscape tablets, laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         color: var(--accent);
         border-bottom: 1px solid var(--accent);
     }
 
+    /*Gallery section - 992px+*/
+    #photos {
+        column-count: 4;
+    }
    
 }
