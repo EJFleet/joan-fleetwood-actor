@@ -52,12 +52,8 @@ header a {
     color: inherit;
 }
 
-h1,
-h2 {
-    font-family: var(--large-heading);
-}
-
 h1 {
+    font-family: var(--large-heading);
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 1.5rem;
@@ -65,11 +61,18 @@ h1 {
 
 h2 {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: var(--accent);
 }
 
 h3 {
     color: var(--accent);
+}
+
+#tagline {
+    font-weight:300;
+    font-size: 1rem;
+    letter-spacing: 1px;
 }
 
 #main-heading {
@@ -182,7 +185,7 @@ main {
     opacity: 0.6;   
 }
 
-#contact-form h3 {
+#contact-form h2 {
     margin-bottom: 1rem;
     color: var(--white);
     font-size: 150%;
@@ -257,8 +260,8 @@ footer {
 
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /*Header*/
 
+    /*Header*/
     header {
         position: relative;
     }
@@ -294,7 +297,7 @@ footer {
         margin-top: 0;
     }
 
-    /*About section*/
+    /*About section - 768px+*/
 
     #about {
         display: flex;
@@ -318,6 +321,12 @@ footer {
         margin-left: 5rem;        
     }
 
+    /*Contact section - 768px+*/
+   
+    #contact-form {
+        max-width: 400px;
+        margin: auto;
+    }
 
 }
 
