@@ -167,6 +167,13 @@ main {
 #showreel {
     margin-top: 2rem;
 }
+
+/*Resume Section*/
+
+#resume {
+    padding: 0 1rem 0 1rem;
+    margin-top: 3rem;
+}
  
 /*Contact Form*/
 
