@@ -222,7 +222,21 @@ height: 5rem;
 
 /*Footer*/
 footer {
-    background-color: var(--dark);
+    background-color: var(--dark);    
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: var(--white);
 }
 
 /*Media query: tablets and larger (768px and up) */
