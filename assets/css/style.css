@@ -328,6 +328,18 @@ footer {
         margin-left: 5rem;        
     }
 
+    /*Resume section - 768px+*/
+
+     
+    #work {
+        display: flex;
+    }
+
+    .work-div {
+        display: flex;
+        flex-direction: column;
+    }
+
     /*Contact section - 768px+*/
    
     #contact-form {
