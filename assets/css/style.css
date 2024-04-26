@@ -75,10 +75,6 @@ h3 {
     letter-spacing: 1px;
 }
 
-/*#main-heading {
-    margin: 5px auto;
-}*/
-
 #main-heading {
     padding: 0.5rem;
 }
@@ -184,6 +180,14 @@ main {
 
 .work-div {
     margin-top: 1rem;
+}
+
+.work-div>p {
+    margin-bottom: 1rem;
+}
+
+.work-div>h3 {
+    margin: 2rem auto 1rem;
 }
 
 #film-2 {
@@ -327,7 +331,7 @@ footer {
     }
 
     #film-2 {
-        padding-top: 2.75rem;
+        margin-top: 3.5rem;
     }
 
     /*Gallery*/
