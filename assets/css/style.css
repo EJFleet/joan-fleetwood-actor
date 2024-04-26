@@ -136,9 +136,9 @@ main {
 
 /*About section*/
 
-/*Hero image*/
+/*First image*/
 
-#hero-image {
+#first-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,6 +196,7 @@ main {
 
 #gallery {
     margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 #photos img {
     width: 100%;
@@ -204,7 +205,7 @@ main {
 
 #photos {
     line-height: 0;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
  
 /*Contact Form*/
@@ -215,6 +216,7 @@ main {
     background-position: 75%;
     padding: 1rem 10% 1rem 10%;
     flex-grow: 1;
+    margin-bottom: 2rem;
 }
 
 #contact-form {
@@ -312,30 +314,6 @@ footer {
         flex-basis: 31%;
     }
 
-    .work-div:nth-child(1) {
-        order: 1;
-    }
-
-    .work-div:nth-child(2) {
-        order: 2;
-    }
-
-    .work-div:nth-child(5) {
-        order: 3;
-    }
-
-    .work-div:nth-child(6) {
-        order: 4;
-    }
-
-    .work-div:nth-child(4)  {
-        order: 5;
-    }
-    
-    .work-div:nth-child(3) {
-        order: 6;
-    }
-
     .work-div {
         padding:  5px 10px 5px 5px;
     }
@@ -401,14 +379,14 @@ footer {
         display: flex;
     }
 
-    #hero-image,
+    #first-image,
     #about-me {
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
     }
 
-    #hero-image {
+    #first-image {
         width: 35vw;
         margin-left: 12vw;
     }
