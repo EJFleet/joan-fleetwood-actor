@@ -42,7 +42,7 @@ header {
     position: fixed;
     z-index: 99;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -307,6 +307,8 @@ footer {
 /*Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
+   
+
     /*Resume*/
     #work-container {
         display: flex;
@@ -339,46 +341,51 @@ footer {
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /*Header*/
+/* Header - 768px+ */
     header {
-        position: relative;
+        position: fixed;
+    }
+
+    #main-heading {
+        font-size: 150%;
+        line-height: 2rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     nav {
         display: block;
         position: relative;
         width: fit-content;
+        top: 1.15rem;
         bottom: 0;
-        left: -5%;
-        top: 54px;
+        left: 0;
     }
 
     #menu {
         display: flex;
     }
 
-    #menu > li {
-        padding-left: 1rem;
+    #menu>li {
+        padding-left: 0.5rem;
+        align-items: baseline;
     }
 
     .nav-toggle-label {
         display: none;
     }
-    
-    #main-heading {
-        font-size: 150%;
-        line-height: 60px;
-        margin-left: 20%;
-    }
+   
 
     main {
-        margin-top: 0;
+        margin-top: 5rem;
     }
 
     /*About section - 768px+*/
 
     #about {
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #first-image,
@@ -389,14 +396,16 @@ footer {
     }
 
     #first-image {
-        width: 35vw;
-        margin-left: 12vw;
+        height: 100%;
+        max-width: 40vw;
     }
 
     #about-me {
-        width: 30vw;
-        margin-right: 14vw;
-        margin-left: 5rem;        
+        width: 42vw;
+        margin-right: 0;
+        margin-left: 7vw;  
+        padding-right: 0;
+        padding-left: 0;      
     }
 
     /*Resume section - 768px+*/
@@ -427,12 +436,7 @@ footer {
         border-bottom: 1px solid var(--accent);
     }
 
-   /*Resume section - 992px+*/
-   /*  .work-div {
-        flex-basis: 24%;
-    }*/
-
-    /*Gallery section - 992px+*/
+      /*Gallery section - 992px+*/
     #photos {
         column-count: 4;
     }
