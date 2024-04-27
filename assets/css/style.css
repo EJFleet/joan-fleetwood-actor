@@ -314,6 +314,11 @@ footer {
    
 
     /*Resume*/
+
+    #resume>h2 {
+        padding-left: 0.5rem;
+    }
+    
     #work-container {
         display: flex;
         flex-wrap: wrap;
@@ -341,6 +346,10 @@ footer {
     column-gap: 0;
    }
 }
+
+    #gallery>h2 {
+        padding-left: 1.5rem;
+    }
 
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
