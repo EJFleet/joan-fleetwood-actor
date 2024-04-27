@@ -171,7 +171,7 @@ main {
 
 #resume {
     padding: 0 1rem 0 1rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 #work-container {
@@ -197,7 +197,6 @@ main {
 #film-2>h3 {
     display: none;
 }
-
 
 /*Gallery*/
 
@@ -252,9 +251,8 @@ border-radius: 2px;
 padding: 0 5px;
 }
 
-
 /*Colour around input box when focused*/
-    /*How to get rid of original :focus?*/
+
 .text-input:focus {
     border: 3px solid var(--accent);
 }
@@ -313,25 +311,22 @@ footer {
     #work-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 1rem;
+        justify-content: space-around;
+        margin-top: 0;
     }
 
     .work-div {
         flex-basis: 31%;
+        margin-top: 0;
+        padding-top: 0 10px 5px 5px;
     }
-
-    .work-div {
-        padding:  5px 10px 5px 5px;
-    }
-    
     
     #film-2>h3 {
         display: block;
     }
 
     #film-2 {
-        margin-top: 3.5rem;
+        margin-top: 2.5rem;
     }
 
     /*Gallery*/
