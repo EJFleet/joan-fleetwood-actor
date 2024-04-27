@@ -33,6 +33,10 @@ body {
     font-family: var(--body-text);
 }
 
+section {
+    scroll-margin-top: 5rem;
+}
+
 
 /*Header*/
 header {
@@ -410,12 +414,17 @@ footer {
 
     /*Resume section - 768px+*/
 
-    /* 
-    .work-div {
-        flex-basis: 32%;
-    }*/
+    #resume {
+        padding-top: 2rem;
+    }
 
     /*Gallery section - 768px+*/
+
+    #gallery {
+        margin-top: 0;
+        padding-top: 2rem;
+    }
+
     #photos {
         column-count: 3;
     }
