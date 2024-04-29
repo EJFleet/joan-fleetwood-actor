@@ -175,6 +175,10 @@ main {
     margin-top: 2rem;
 }
 
+#showreel-video {
+    width: 100%;
+}
+
 /*Resume Section*/
 
 #resume {
