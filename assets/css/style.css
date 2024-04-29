@@ -206,10 +206,6 @@ main {
     margin-top: 0;
 }
 
-#film-2>h3 {
-    display: none;
-}
-
 #resume a {
     color: var(--accent);
 }
@@ -325,7 +321,7 @@ footer {
 
    
 
-    /*Resume*/
+    /* Resume - 576px+ */
 
     #resume>h2 {
         padding-left: 0.5rem;
@@ -343,16 +339,12 @@ footer {
         margin-top: 0;
         padding-top: 0 10px 5px 5px;
     }
-    
-    #film-2>h3 {
-        display: block;
-    }
-
+   
     #film-2 {
-        margin-top: 2.5rem;
+        margin-top: 4.5rem;
     }
 
-    /*Gallery*/
+    /* Gallery - 576px+ */
    #photos {
     column-count: 2;
     column-gap: 0;
