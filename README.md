@@ -109,7 +109,9 @@ The colour palette was created using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+Google Fonts was used to import the chosen fonts for use in the site.
+
+I chose two sans-serif fonts - Montserrat for headings and Inter for body text - as they give a clean look, are easy to read and look good together.  
 
 Why did you choose the font you have?
 Is this an accessibly friendly font?

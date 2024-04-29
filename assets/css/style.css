@@ -8,7 +8,7 @@
     --white:  #ffffff;
     --grey:   #CDC8C6;
     --dark:   #777271;
-    --accent: #A73742;
+    --accent: #A22F38;
 
     /* fonts */
     --large-heading: 'Montserrat', sans-serif;
@@ -285,7 +285,7 @@ height: 5rem;
 
 .join-button {
     background-color: var(--white);
-    color: #A22F38;
+    color: var(--accent);
     font-weight: 700;
     border-radius: 4px;
     font-size: 150%;
@@ -295,7 +295,7 @@ height: 5rem;
 }
 
 .join-button:hover {
-    background-color: #A22F38;
+    background-color: var(--accent);
     color: var(--black);
 }
 
