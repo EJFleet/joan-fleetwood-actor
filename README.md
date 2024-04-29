@@ -126,6 +126,8 @@ The image used for the background of the contact form was downloaded from [iStoc
 
 The website consists of one continuous page, divided up into sections.  There is a fixed header and navigation menu at the top of the page, and a footer at the bottom.
 
+The site was designed mobile-first and is responsive at every screen size.
+
 The sections are divided into:
 * About 
 * Resumé
@@ -134,7 +136,50 @@ The sections are divided into:
 
 #### Header
 
-![Header for mobile]()
+##### Mobile
+![Header for mobile](documentation/feature-screenshots/joan-fleetwood-header-mobile.png)
+
+##### Desktop
+![Header for desktop](documentation/feature-screenshots/joan-fleetwood-header-full.png)
+
+#### Footer
+
+##### Mobile
+![Footer for mobile](documentation/feature-screenshots/joan-fleetwood-footer-mobile.png)
+
+##### Desktop
+![Footer for desktop](documentation/feature-screenshots/joan-fleetwood-footer-desktop.png)
+
+#### Favicon
+
+![Favicon](documentation/feature-screenshots/joan-fleetwood-favicon-screenshot.png)
+
+#### About
+
+##### Main Image
+
+![Main Image](documentation/feature-screenshots/joan-fleetwood-main-image.png)
+
+##### About Me section
+
+![About Me](documentation/feature-screenshots/joan-fleetwood-about-me.png)
+
+#### Resumé
+
+![Resumé](documentation/feature-screenshots/joan-fleetwood-resume.png)
+
+#### Gallery
+
+![Gallery](documentation/feature-screenshots/joan-fleetwood-gallery.png)
+
+#### Contact Form
+
+##### Mobile
+![Contact Form for Mobile](documentation/feature-screenshots/joan-fleetwood-contact-form-mobile.png)
+
+##### Desktop
+![Contact Form for Desktop](documentation/feature-screenshots/joan-fleetwood-contact-form-desktop.png)
+
 
 ### General features on each page
 
