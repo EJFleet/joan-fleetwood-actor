@@ -296,6 +296,7 @@ height: 5rem;
 
 .join-button:hover {
     background-color: #C53847;
+    color: var(--black);
 }
 
 /* Footer */
