@@ -284,8 +284,9 @@ height: 5rem;
 }
 
 .join-button {
-    background-color: var(--accent);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--accent);
+    font-weight: 700;
     border-radius: 4px;
     font-size: 120%;
     padding: 1rem 2rem;
