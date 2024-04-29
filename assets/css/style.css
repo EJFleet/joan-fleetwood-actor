@@ -127,6 +127,22 @@ nav {
     font-size: 2rem;
 }
 
+/* Code to ensure screenreaders pickup the burger menu checkbox - credit to https://github.com/SophieMcGee/sophie-mcgee-copywriting/tree/main */
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+
 /* Main Content */
 main {
     /* Make main element take up any surplus space to push footer down */
