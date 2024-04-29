@@ -66,7 +66,36 @@ Joan embarked on an acting career in 2010 and needed a website to showcase her w
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### Client Goals
+
+* To be able to view the site on a range of device sizes
+* To find out if Joan's appearance is suitable for a particular acting role
+* To find out if Joan is experienced enough to manage a particular acting role
+* To see examples of Joan's work
+* To contact Joan or her agent with audition or job offers
+
+#### First-time Visitor Goals
+
+I want to: 
+* know what Joan looks like
+* know what acting/modelling experience Joan has
+* know if Joan is suitable for a particular role
+* see Joan's showreel
+* be able to navigate the site easily to find information
+* find links to Joan's social media channels
+* contact Joan or her agent
+
+#### Returning Visitor Goals
+
+I want to: 
+* see what work Joan has done recently
+* contact Joan or her agent about a potential role
+
+#### Frequent Visitor Goals
+
+I want to 
+* get in touch with Joan
+* see if Joan has uploaded the work we produced together
 
 ## Design
 
