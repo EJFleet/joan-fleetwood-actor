@@ -142,6 +142,12 @@ The sections are divided into:
 ##### Desktop
 ![Header for desktop](documentation/feature-screenshots/joan-fleetwood-header-full.png)
 
+I used a 'hamburger' menu icon to hide the navigation menu in mobile view, to give more space.  Clicking it brings a dropdown menu of the different sections on the site.
+
+The desktop header stretches across the whole viewport, even on very large screens, to give a framing effect to the content below.
+
+The header is fixed, in order to keep the navigation menu in view the whole time, as it is a one-page website and scrolling back to the beginning would be tiresome for the user.
+
 #### Footer
 
 ##### Mobile
@@ -150,27 +156,43 @@ The sections are divided into:
 ##### Desktop
 ![Footer for desktop](documentation/feature-screenshots/joan-fleetwood-footer-desktop.png)
 
+The footer contains links to Joan's social media, using icons from [FontAwesome](https://fontawesome.com/).  There are also contact details for her acting agency and a line that credits me as the designer and links to my GitHub.
+
+As with the header, the footer stretches across the whole screen to give a framing effect.
+
 #### Favicon
 
 ![Favicon](documentation/feature-screenshots/joan-fleetwood-favicon-screenshot.png)
 
+The favicon for the site was created using [favicon.io](https://favicon.io/favicon-generator/) and uses the pink and black colours from the site's colour scheme.
+
 #### About
+
+The About section is divided into two divs, which appear side-by-side on tablet-size screens (768px and larger).
 
 ##### Main Image
 
 ![Main Image](documentation/feature-screenshots/joan-fleetwood-main-image.png)
 
+This photo of Joana was chosen as it is striking yet simple with no background clutter.
+
 ##### About Me section
 
 ![About Me](documentation/feature-screenshots/joan-fleetwood-about-me.png)
+
+This is divided into two divs which always appear on top of each other.  The About Me paragraph is a short summary of Joan's appearance and experience.  Underneath is her Showreel, which gives an audiovisual display of her work.
 
 #### Resumé
 
 ![Resumé](documentation/feature-screenshots/joan-fleetwood-resume.png)
 
+The Resumé section details Joan's extensive experience.  It is displayed as one column on screens smaller than 576px and as three columns on larger screens.
+
 #### Gallery
 
 ![Gallery](documentation/feature-screenshots/joan-fleetwood-gallery.png)
+
+The Gallery contains snapshots of Joan in various acting and modelling roles.  It will display as 1-4 columns depending on the screen size.
 
 #### Contact Form
 
@@ -179,6 +201,9 @@ The sections are divided into:
 
 ##### Desktop
 ![Contact Form for Desktop](documentation/feature-screenshots/joan-fleetwood-contact-form-desktop.png)
+
+The Contact Form has an icon of a clapperboard and a background of studio lights to emphasise the connection between Joan and the acting world.
+
 
 
 ### General features on each page
