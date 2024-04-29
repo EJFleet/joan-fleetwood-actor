@@ -8,7 +8,7 @@
     --white:  #ffffff;
     --grey:   #CDC8C6;
     --dark:   #777271;
-    --accent: #C4515D;
+    --accent: #A73742;
 
     /* fonts */
     --large-heading: 'Montserrat', sans-serif;
@@ -70,6 +70,10 @@ h2 {
 
 h3 {
     color: var(--accent);
+}
+
+h4 {
+    font-weight: 700;
 }
 
 #tagline {
@@ -445,7 +449,7 @@ footer {
         max-width: 400px;
         margin: auto;
     }
-    
+
 }
 
 /* Media query: landscape tablets, laptops and larger (992px and up) */
