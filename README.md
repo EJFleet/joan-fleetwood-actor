@@ -113,17 +113,15 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 I chose two sans-serif fonts - Montserrat for headings and Inter for body text - as they give a clean look, are easy to read and look good together.  
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+Both fonts are downloaded as variable fonts, with weights ranging from 100-900.  
 
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+![Google Fonts example for the site](documentation/joan-fleetwood-google-fonts-screenshot.png)
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+The imagery for the site consists of photographs of Joan in various outfits and poses, showcasinging her range of experience in acting and modelling.
+
+The image used for the background of the contact form was downloaded from [iStock](https://www.istockphoto.com/).
 
 ### Wireframes
 
