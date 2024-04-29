@@ -337,7 +337,7 @@ footer {
     .work-div {
         flex-basis: 31%;
         margin-top: 0;
-        padding-top: 0 10px 5px 5px;
+        padding: 0 10px 5px 5px;
     }
    
     #film-2 {
