@@ -285,7 +285,7 @@ height: 5rem;
 
 .join-button {
     background-color: var(--white);
-    color: #C53847;
+    color: #A22F38;
     font-weight: 700;
     border-radius: 4px;
     font-size: 150%;
@@ -295,7 +295,7 @@ height: 5rem;
 }
 
 .join-button:hover {
-    background-color: #C53847;
+    background-color: #A22F38;
     color: var(--black);
 }
 
