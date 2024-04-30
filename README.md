@@ -266,8 +266,6 @@ Lighthouse - Chrome extension used to assess accessibility.
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
 The site is deployed using GitHub Pages - [Joan Fleetwood | Actor & Model](https://ejfleet.github.io/joan-fleetwood-actor/).
@@ -311,21 +309,37 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+[Kera Cudmore README](https://github.com/kera-cudmore/Bully-Book-Club/tree/main) for examples of what to include in the README sections.
+
+[Sophie McGee](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/assets/css/style.css) for how to make the hamburger menu accessible to screen readers.
+
+Code Institute 'Love Running' walkthrough project for the hamburger navigation menu, the gallery and the footer.
+ 
+[Stack Overflow](https://stackoverflow.com/questions/11501025/div-anchors-scrolling-too-far) and [CSS-Tricks](https://css-tricks.com/hash-tag-links-padding/) for the code to add top margin to the section elements following a scroll event, to compensate for the fixed header.
+
+[W3C Schools](https://www.w3schools.com/css/css3_variables.asp) for the code to use variables in CSS.
+
+[Tapas Adhikary](https://github.com/atapas/markdown-cheatsheet) for his markdown cheatsheet.
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content for the website was provided by Joan Fleetwood.  The About Me paragraph was edited by Emma Fleetwood.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+#### Main Image and Gallery Images
+
+All images were provided by Joan Fleetwood.
+
+#### Showreel Video
+
+This video was downloaded from Joan's [Vimeo account](https://vimeo.com/user14640532).
+
+#### Background Image for Contact Form
+
+The image of studio lights on a plain grey background was downloaded from [iStock.com](https://istock.com).
   
 ###  Acknowledgments
 
