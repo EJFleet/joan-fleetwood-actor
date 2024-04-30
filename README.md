@@ -303,7 +303,7 @@ To clone the repository:
 
 ## Testing
 
-1. ### Functionality
+### Functionality
 
 |Test Label|Test Action|Expected Outcome|Test Outcome|
 |-----|-----|-----|-----|
@@ -315,7 +315,7 @@ To clone the repository:
 |Contact form POST|Fill in form and press submit|Page displays with 4 rows of sent information|PASS|
 |Footer links|Click each icon in footer|Correct social media site opens in new tab|PASS|
 
-2. ### Browser Compatibility
+### Browser Compatibility
 
 The website was tested on:
 * Chrome
@@ -324,7 +324,7 @@ The website was tested on:
 * Firefox
 * Chrome for Android
 
-3. ### Responsiveness
+### Responsiveness
 
 The site was tested on the following devices: 
 * Samsung S9
@@ -336,24 +336,30 @@ The site was tested on the following devices:
 
 It was extensively tested in Chrome Dev Tools for responsiveness from 200px - 5000px.
 
-4. ### HTML and CSS Validation
+### HTML and CSS Validation
 
 I used the W3C Markup Validator and W3C CSS Validator to validate the site and to ensure there were no syntax errors contained therein.
 
 #### HTML
 
 The site initially failed the validation as there were two issues - both related to using HTML rather than CSS for styling. These were fixed easily by using deleting the relevant HTML and using CSS instead.
+
 ![HTML fail](documentation/testing/joan-fleetwood-w3c-html-validation-fail-28.4.24.png)
 
+
 The site now passes the HTML Validation test.
+
 ![HTML pass](documentation/testing/joan-fleetwood-html-checker-pass.png)
+
 
 #### CSS
 
-The site initially failed the validation as there was one issue - this was easily fixed by changing padding-top to padding in one of the elements.
+The site initially failed the validation as there was one issue - this was easily fixed by changing padding-top to padding in one of the elements. 
+
 ![CSS fail](documentation/testing/joan-fleetwood-w3c-css-validation-fail-29.4.24.png)
 
 The site now passes the CSS Validation test.
+
 ![CSS pass](documentation/testing/joan-fleetwood-css-checker-pass.png)
 
 
