@@ -205,44 +205,64 @@ The Gallery contains snapshots of Joan in various acting and modelling roles.  I
 The Contact Form has an icon of a clapperboard and a background of studio lights to emphasise the connection between Joan and the acting world.
 
 
-
-### General features on each page
-
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
-
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
-
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+I would like to add the following features:
+
+* Section dedicated to 'Matriarch', which is a short film produced by Joan
+* PHP so that the contact form is sent to Joan's email
+* Add more photos to the gallery
+* Possibly embed videos instead of providing links in the Resumé
+* Make the About Me paragraph more detailed
+* Only show the first 3 items in each Resumé section and hide the rest behind a 'Show More' button
+
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have tried to make the site as accessible as possible.  Steps that I have been conscious to take are:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+* Using semantic HTML
+* Choosing fonts that are dyslexia-friendly
+* Using descriptive alt attributes on all images 
+* Providing aria-labels for screen readers where there are icons used and no text, i.e. the social media icons in the footer
+* Ensuring that there is a sufficient colour contrast throughout the site
+* Making sure the hamburger menu is accessible to screen readers - I saw this code on a readme for a site by Sophie McGee and decided to include it 
+![Sophie McGee hamburger menu code](documentation/feature-screenshots/joan-fleetwood-sophie-mcgee-code.png)
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
 
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML and CSS were the main languages used to build this site.  There is also one line of JavaScript in the head section of the HTML, which is used to display the icons from fontawesome.com.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Git - For version control.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Github - To save and store the files for the website.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Gitpod - For developing the site.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+Lighthouse - Chrome extension used to assess accessibility.
+
+[Shields.io](https://shields.io/) for adding badges to the readme.
+
+[Favicon.io](https://favicon.io/favicon-generator/) for creating a custom favicon.
+
+[Achecks.org](https://www.achecks.org/apca-wcag-3-accessible-colour-contrast-checker/) for checking the colour contrast for accessibility.
+
+[Coolors.co](https://coolors.co) for creating a colour scheme.
+
+[Deque Univerity](https://dequeuniversity.com/rules/axe/4.8/color-contrast) for adjusting colours to meet accessibility standards.
+
 
 ## Deployment & Local Development
 
