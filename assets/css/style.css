@@ -319,19 +319,6 @@ footer {
     background-color: var(--dark);
 }
 
-#agency {
-    color: var(--white);
-}
-
-#agency a {
-    color: white;
-    text-decoration: none;
-}
-
-#agency a:hover {
-    border-bottom: 1px solid var(--white);
-}
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
