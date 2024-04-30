@@ -301,11 +301,18 @@ To clone the repository:
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+1. ### Functionality
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+|Test Label|Test Action|Expected Outcome|Test Outcome|
+|-----|-----|-----|-----|
+|Hamburger menu|Click on hamburger icon in mobile view|Navigation menu drops down|PASS|
+|Navigation links|Click on nav links in the header|Site scrolls to appropriate section|PASS|
+|Showreel display|Click play button on the showreel video|Video plays in-page|PASS|
+|Resumé links|Click links within Resumé|Correct link opens in a new tab|PASS|
+|Contact form|Fill in form and press submit|Error messages show if text missing from any box|PASS|
+|Contact form POST|Fill in form and press submit|Page displays with 4 rows of sent information|PASS|
+|Footer links|Click each icon in footer|Correct social media site opens in new tab|PASS|
+
 
 ## Credits
 
