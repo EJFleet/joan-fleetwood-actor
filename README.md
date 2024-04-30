@@ -383,6 +383,8 @@ The site now passes the CSS Validation test.
 [Sophie McGee](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/assets/css/style.css) for how to make the hamburger menu accessible to screen readers.
 
 Code Institute 'Love Running' walkthrough project for the hamburger navigation menu, the gallery and the footer.
+
+Code Institute's sample README for ideas of what to put in each section.
  
 [Stack Overflow](https://stackoverflow.com/questions/11501025/div-anchors-scrolling-too-far) and [CSS-Tricks](https://css-tricks.com/hash-tag-links-padding/) for the code to add top margin to the section elements following a scroll event, to compensate for the fixed header.
 
