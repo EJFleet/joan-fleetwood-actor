@@ -317,6 +317,44 @@ To clone the repository:
 
 2. ### Browser Compatibility
 
+The website was tested on:
+* Chrome
+* Edge
+* Safari
+* Firefox
+* Chrome for Android
+
+3. ### Responsiveness
+
+The site was tested on the following devices: 
+* Samsung S9
+* Samsung Galaxy S22
+* Google Pixel 6
+* iPad Pro 2020
+* 15.6" Laptop
+* Desktop PC
+
+It was extensively tested in Chrome Dev Tools for responsiveness from 200px - 5000px.
+
+4. ### HTML and CSS Validation
+
+I used the W3C Markup Validator and W3C CSS Validator to validate the site and to ensure there were no syntax errors contained therein.
+
+#### HTML
+
+The site initially failed the validation as there were two issues - both related to using HTML rather than CSS for styling. These were fixed easily by using deleting the relevant HTML and using CSS instead.
+![HTML fail](documentation/testing/joan-fleetwood-w3c-html-validation-fail-28.4.24.png)
+
+The site now passes the HTML Validation test.
+![HTML pass](documentation/testing/joan-fleetwood-html-checker-pass.png)
+
+#### CSS
+
+The site initially failed the validation as there was one issue - this was easily fixed by changing padding-top to padding in one of the elements.
+![CSS fail](documentation/testing/joan-fleetwood-w3c-css-validation-fail-29.4.24.png)
+
+The site now passes the CSS Validation test.
+![CSS pass](documentation/testing/joan-fleetwood-css-checker-pass.png)
 
 
 ## Credits
@@ -358,3 +396,4 @@ The image of studio lights on a plain grey background was downloaded from [iStoc
 * My mentor Brian Macharia for his help and clear explanations of what needed to be done
 * Amy Richardson for facilitating our weekly standups and being a font of information and encouragement
 * Terry Loughran for his advice on how long the README might take to do!
+* Tom Hall on Slack for taking the time to peer review my code
