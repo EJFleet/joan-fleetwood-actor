@@ -263,6 +263,8 @@ Lighthouse - Chrome extension used to assess accessibility.
 
 [Deque Univerity](https://dequeuniversity.com/rules/axe/4.8/color-contrast) for adjusting colours to meet accessibility standards.
 
+[Beautifier.io](https://beautifier.io/) to format the site's code.
+
 
 ## Deployment & Local Development
 
@@ -312,6 +314,9 @@ To clone the repository:
 |Contact form|Fill in form and press submit|Error messages show if text missing from any box|PASS|
 |Contact form POST|Fill in form and press submit|Page displays with 4 rows of sent information|PASS|
 |Footer links|Click each icon in footer|Correct social media site opens in new tab|PASS|
+
+2. ### Browser Compatibility
+
 
 
 ## Credits
