@@ -343,4 +343,6 @@ The image of studio lights on a plain grey background was downloaded from [iStoc
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+* My mentor Brian Macharia for his help and clear explanations of what needed to be done
+* Amy Richardson for facilitating our weekly standups and being a font of information and encouragement
+* Terry Loughran for his advice on how long the README might take to do!
