@@ -133,6 +133,22 @@ The imagery for the site consists of photographs of Joan in various outfits and 
 
 The image used for the background of the contact form was downloaded from [iStock](https://www.istockphoto.com/).
 
+### Wireframes
+
+The wireframes that I originally designed were for a multi-page website.  Through my research and advice from my mentor I realised that a one-page website divided into sections would be better for the user experience.  The original wireframes are below - though the concept evolved, the original layout is still relevant and can be recognised in the finished site.
+
+#### Mobile
+
+* [Home and Resume](documentation/wireframes/JF-home-and-resume-mobile-wireframe.webp)
+* [Reel and Gallery](documentation/wireframes/JF-Reel-and-Gallery-phone-wireframe.webp)
+* [Contact Form](documentation/wireframes/JF-contact-form-mobile-wireframe.webp)
+
+#### Desktop
+* [Home and Resume](documentation/wireframes/JF-home-and-resume-desktop-wireframe.webp)
+* [Reel and Gallery](documentation/wireframes/JF-Reel-and-Gallery-desktop-wireframe.webp)
+* [Contact Form](documentation/wireframes/JF-contact-form-desktop-wireframe.webp)
+
+
 ## Features
 
 The website consists of one continuous page, divided up into sections.  There is a fixed header and navigation menu at the top of the page, and a footer at the bottom.
