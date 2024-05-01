@@ -115,7 +115,7 @@ Joan and I wanted to use minimal colour in the website in order not to make it t
 
 The colour palette was created using the [Coolors](https://coolors.co/) website.
 
-![Colour palette for the site](documentation/joan-fleetwood-colour-palette.png)
+![Colour palette for the site](documentation/feature-screenshots/joan-fleetwood-colour-palette-small.png)
 
 ### Typography
 
@@ -391,6 +391,8 @@ Code Institute's sample README for ideas of what to put in each section.
 [W3C Schools](https://www.w3schools.com/css/css3_variables.asp) for the code to use variables in CSS.
 
 [Tapas Adhikary](https://github.com/atapas/markdown-cheatsheet) for his markdown cheatsheet.
+
+Traversy Media for their [Flexbox Crash Course](https://youtu.be/3YW65K6LcIA?si=muQloPSlDEk8zo3J) video.
 
 ### Content
 
