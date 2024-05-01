@@ -388,6 +388,13 @@ The site now passes the CSS Validation test.
 ![CSS pass](documentation/testing/joan-fleetwood-css-checker-pass.png)
 
 
+### Lighthouse
+
+I used the Chrome extension Lighthouse to test the site, particularly for Performance and Accessibility.  Results below.
+
+![Lighthouse results](documentation/testing/joan-fleetwood-lighthouse-webp.webp)
+
+
 ## Credits
 
 ### Code Used
