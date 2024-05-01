@@ -386,7 +386,7 @@ The site was tested on the following devices:
 * 15.6" Laptop
 * Desktop PC
 
-It was extensively tested in Chrome Dev Tools for responsiveness from 320px - 5000px.
+It was extensively tested in Chrome Dev Tools for responsiveness from 300px - 5000px.
 
 ### HTML and CSS Validation
 
