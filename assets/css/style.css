@@ -51,7 +51,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 /* Remove underline from and change colour of links */
@@ -331,7 +331,7 @@ footer {
     /* Header - 576px+ */
 
     .header-contents-container {
-        padding: 0 5rem;
+        padding: 0 3rem;
     }
 
     /* Resumé - 576px+ */
@@ -376,6 +376,10 @@ footer {
     /* Header - 768px+ */
     header {
         position: fixed;
+    }
+
+    .header-contents-container {
+        padding: 0 5rem;
     }
 
     #main-heading {
