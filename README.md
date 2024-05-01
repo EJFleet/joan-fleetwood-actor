@@ -268,6 +268,7 @@ I would like to add the following features:
 * Possibly embed videos instead of providing links in the Resumé
 * Make the About Me paragraph more detailed
 * Only show the first 3 items in each Resumé section and hide the rest behind a 'Show More' button
+* Possibly a 404 page - decided this was not currently important for the one-page structure of the site
 
 
 ### Accessibility
