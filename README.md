@@ -50,6 +50,7 @@ View [Joan Fleetwood | Actor & Model](https://ejfleet.github.io/joan-fleetwood-a
   * [Browser Compatibility](#browser-compatibility)
   * [Responsiveness](#responsiveness)
   * [HTML and CSS Validation](#html-and-css-validation)
+  * [Solved Bugs](#solved-bugs)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
@@ -393,6 +394,13 @@ The site now passes the CSS Validation test.
 I used the Chrome extension Lighthouse to test the site, particularly for Performance and Accessibility.  Results below.
 
 ![Lighthouse results](documentation/testing/joan-fleetwood-lighthouse-webp.webp)
+
+
+### Solved Bugs
+
+* The original colour scheme for the site used a lighter pink than the current one.  When I tested it on the [achecks.org](https://www.achecks.org/apca-wcag-3-accessible-colour-contrast-checker/) accessibility tester, this colour caused the site to fail as it did not provide enough contrast on the smaller headings or on the 'submit' button against the grey background.  I used [Deque Univerity;s site](https://dequeuniversity.com/rules/axe/4.8/color-contrast) to find a different shade of the pink colour that would meet accessibility standards.  I also changed the font-weight of the headers to make them easier to read.  These measures solved the issue.
+
+* I had difficulty moving the hamburger menu item into the position it has now.  I tried to use every combination of padding and margin to achieve this but I was unsuccessful.  My mentor Brian Macharia instructed me in changing the background colour of the divs to red to be able to see what was happening.  It turned out that I had set the {align-items} value to baseline rather than center, which was the source of all the issues.  The hamburger menu icon is now where I want it to be.
 
 
 ## Credits
