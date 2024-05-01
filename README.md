@@ -430,7 +430,6 @@ I used the Chrome extension Lighthouse to test the site, particularly for Perfor
 
 * I initially used <br> elements for spacing in the index.html, which was pointed out by my mentor as it would mean failing the W3C validation on testing.  I removed these and used CSS to achieve the desired result instead.
 
-
 ## Credits
 
 ### Code Used
