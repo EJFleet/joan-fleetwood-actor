@@ -43,9 +43,15 @@ header {
     width: 100%;
     position: fixed;
     z-index: 99;
+}
+
+.header-contents-container {
+    width: 100%;
+    max-width: 1500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 /* Remove underline from and change colour of links */
@@ -431,11 +437,12 @@ footer {
 
     #first-image {
         height: 100%;
-        max-width: 40vw;
+        max-width: 40%;
+        padding-left: 5%;
     }
 
     #about-me {
-        width: 42vw;
+        width: 42%;
         margin-right: 0;
         margin-left: 7vw;
         padding-right: 0;
