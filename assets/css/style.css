@@ -324,18 +324,6 @@ footer {
     color: var(--white);
 }
 
-/* 404 page */
-
-.error-page-container {
-    margin: 10rem auto;
-    max-width: 35%;
-}
-
-.error-page-container h1,
-a {
-    color: var(--accent);
-}
-
 /* Media query: large or landscape phones (576px and up) */
 
 @media screen and (min-width: 576px) {
