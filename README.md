@@ -4,7 +4,7 @@
 
 Joan Fleetwood | Actor | Model is a portfolio site to showcase Joan Fleetwood's work as an actor.  The site will be targeted towards casting directors and other industry professionals who are looking for a female actor aged 60+.  It will give Joan a website that she can use to market herself on the web and make it easy for people to find Joan, to see the work that she has done and to contact her, all in one place. 
 
-![Screenshots of Joan Fleetwood website on different devices](documentation/joan-fleetwood-actor-amiresponsive-28-4-24.png)
+![Screenshots of Joan Fleetwood website on different devices](documentation/feature-screenshots/joan-fleetwood-actor-amiresponsive-28-4-24.png)
 
 View [Joan Fleetwood | Actor | Model](https://ejfleet.github.io/joan-fleetwood-actor/) on Github Pages.
 
@@ -126,7 +126,7 @@ I chose two sans-serif fonts - Montserrat for headings and Inter for body text -
 
 Both fonts are downloaded as variable fonts, with weights ranging from 100-900.  
 
-![Google Fonts example for the site](documentation/joan-fleetwood-google-fonts-screenshot.png)
+![Google Fonts example for the site](documentation/feature-screenshots/joan-fleetwood-google-fonts-screenshot.png)
 
 ### Imagery
 
