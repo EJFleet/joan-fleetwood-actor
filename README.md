@@ -253,9 +253,6 @@ I have tried to make the site as accessible as possible.  Steps that I have been
 * Using descriptive alt attributes on all images 
 * Providing aria-labels for screen readers where there are icons used and no text, i.e. the social media icons in the footer
 * Ensuring that there is a sufficient colour contrast throughout the site
-* Making sure the hamburger menu is accessible to screen readers - I saw this code on a readme for a site by Sophie McGee and decided to include it 
-![Sophie McGee hamburger menu code](documentation/feature-screenshots/joan-fleetwood-sophie-mcgee-code.png)
-
 
 
 ## Technologies Used
@@ -396,8 +393,6 @@ The site now passes the CSS Validation test.
 ### Code Used
 
 [Kera Cudmore README](https://github.com/kera-cudmore/Bully-Book-Club/tree/main) for examples of what to include in the README sections.
-
-[Sophie McGee](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/assets/css/style.css) for how to make the hamburger menu accessible to screen readers.
 
 Code Institute 'Love Running' walkthrough project for the hamburger navigation menu, the gallery and the footer.
 
