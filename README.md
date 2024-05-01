@@ -339,7 +339,8 @@ To clone the repository:
 |Showreel display|Click play button on the showreel video|Video plays in-page|PASS|
 |Resumé links|Click links within Resumé|Correct link opens in a new tab|PASS|
 |Contact form|Fill in form and press submit|Error messages show if text missing from any box|PASS|
-|Contact form POST|Fill in form and press submit|Page displays with 4 rows of sent information|PASS|
+|Contact form email|Enter string without @ symbol in email box|Error message to say email not correctly formatted|PASS|
+|Contact form POST|Fill in form and press submit|Form submits to CI formdump with all four fields showing the information populated|PASS|
 |Footer links|Click each icon in footer|Correct social media site opens in new tab|PASS|
 
 ### Browser Compatibility
