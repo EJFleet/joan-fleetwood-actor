@@ -2,11 +2,11 @@
 
 ## Intro
 
-Joan Fleetwood | Actor & Model is a portfolio site to showcase Joan Fleetwood's work as an actor.  The site will be targeted towards casting directors and other industry professionals who are looking for a female actor aged 60+.  It will give Joan a website that she can use to market herself on the web and make it easy for people to find Joan, to see the work that she has done and to contact her, all in one place. 
+Joan Fleetwood | Actor | Model is a portfolio site to showcase Joan Fleetwood's work as an actor.  The site will be targeted towards casting directors and other industry professionals who are looking for a female actor aged 60+.  It will give Joan a website that she can use to market herself on the web and make it easy for people to find Joan, to see the work that she has done and to contact her, all in one place. 
 
 ![Screenshots of Joan Fleetwood website on different devices](documentation/joan-fleetwood-actor-amiresponsive-28-4-24.png)
 
-View [Joan Fleetwood | Actor & Model](https://ejfleet.github.io/joan-fleetwood-actor/) on Github Pages.
+View [Joan Fleetwood | Actor | Model](https://ejfleet.github.io/joan-fleetwood-actor/) on Github Pages.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ejfleet/joan-fleetwood-actor)![GitHub language count](https://img.shields.io/github/languages/count/ejfleet/joan-fleetwood-actor)![GitHub top language](https://img.shields.io/github/languages/top/ejfleet/joan-fleetwood-actor)![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fejfleet.github.io%2Fjoan-fleetwood-actor%2F)
 
@@ -321,7 +321,7 @@ Lighthouse - Chrome extension used to assess accessibility.
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [Joan Fleetwood | Actor & Model](https://ejfleet.github.io/joan-fleetwood-actor/).
+The site is deployed using GitHub Pages - [Joan Fleetwood | Actor | Model](https://ejfleet.github.io/joan-fleetwood-actor/).
 
 To Deploy the site using GitHub Pages:
 
@@ -386,7 +386,7 @@ The site was tested on the following devices:
 * 15.6" Laptop
 * Desktop PC
 
-It was extensively tested in Chrome Dev Tools for responsiveness from 200px - 5000px.
+It was extensively tested in Chrome Dev Tools for responsiveness from 320px - 5000px.
 
 ### HTML and CSS Validation
 

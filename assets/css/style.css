@@ -328,6 +328,12 @@ footer {
 
 @media screen and (min-width: 576px) {
 
+    /* Header - 576px+ */
+
+    .header-contents-container {
+        padding: 0 5rem;
+    }
+
     /* Resumé - 576px+ */
 
     #resume>h2 {
