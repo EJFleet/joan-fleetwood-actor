@@ -23,6 +23,7 @@ View [Joan Fleetwood | Actor & Model](https://ejfleet.github.io/joan-fleetwood-a
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
  
 * [Features](#features)
   * [Header](#header)
@@ -73,7 +74,6 @@ Joan embarked on an acting career in 2010 and needed a website to showcase her w
 * Her resumé
 * A gallery of photos
 * How to contact Joan
-* How to contact her agent
 
 ### User Stories
 
@@ -83,7 +83,7 @@ Joan embarked on an acting career in 2010 and needed a website to showcase her w
 * To find out if Joan's appearance is suitable for a particular acting role
 * To find out if Joan is experienced enough to manage a particular acting role
 * To see examples of Joan's work
-* To contact Joan or her agent with audition or job offers
+* To contact Joan with audition or job offers
 
 #### First-time Visitor Goals
 
@@ -94,13 +94,13 @@ I want to:
 * see Joan's showreel
 * be able to navigate the site easily to find information
 * find links to Joan's social media channels
-* contact Joan or her agent
+* contact Joan
 
 #### Returning Visitor Goals
 
 I want to: 
 * see what work Joan has done recently
-* contact Joan or her agent about a potential role
+* contact Joan about a potential role
 
 #### Frequent Visitor Goals
 
@@ -140,14 +140,39 @@ The wireframes that I originally designed were for a multi-page website.  Throug
 
 #### Mobile
 
-* [Home and Resume](documentation/wireframes/JF-home-and-resume-mobile-wireframe.webp)
-* [Reel and Gallery](documentation/wireframes/JF-Reel-and-Gallery-phone-wireframe.webp)
-* [Contact Form](documentation/wireframes/JF-contact-form-mobile-wireframe.webp)
+<details >
+<summary>Home and Resumé</summary>  
+
+![homepage and resumé wireframe-mobile](documentation/wireframes/jf-home-and-resume-mobile-wireframe.webp)
+</details> 
+<details >
+<summary>Reel and Gallery</summary>  
+
+![reel and gallery-mobile](documentation/wireframes/jf-reel-and-gallery-phone-wireframe.webp)
+</details> 
+<details >
+<summary>Contact Form</summary>  
+
+![contact form-mobile](documentation/wireframes/jf-contact-form-mobile-wireframe.webp)
+</details> 
 
 #### Desktop
-* [Home and Resume](documentation/wireframes/JF-home-and-resume-desktop-wireframe.webp)
-* [Reel and Gallery](documentation/wireframes/JF-Reel-and-Gallery-desktop-wireframe.webp)
-* [Contact Form](documentation/wireframes/JF-contact-form-desktop-wireframe.webp)
+
+<details >
+<summary>Home and Resumé</summary>  
+
+![homepage and resumé wireframe-desktop](documentation/wireframes/jf-home-and-resume-desktop-wireframe.webp)
+</details> 
+<details >
+<summary>Reel and Gallery</summary>  
+
+![reel and gallery-desktop](documentation/wireframes/jf-reel-and-gallery-desktop-wireframe.webp)
+</details> 
+<details >
+<summary>Contact Form</summary>  
+
+![contact form-desktop](documentation/wireframes/jf-contact-form-desktop-wireframe.webp)
+</details> 
 
 
 ## Features
@@ -402,6 +427,8 @@ I used the Chrome extension Lighthouse to test the site, particularly for Perfor
 
 * I had difficulty moving the hamburger menu item into the position it has now.  I tried to use every combination of padding and margin to achieve this but I was unsuccessful.  My mentor Brian Macharia instructed me in changing the background colour of the divs to red to be able to see what was happening.  It turned out that I had set the {align-items} value to baseline rather than center, which was the source of all the issues.  The hamburger menu icon is now where I want it to be.
 
+* I initially used <br> elements for spacing in the index.html, which was pointed out by my mentor as it would mean failing the W3C validation on testing.  I removed these and used CSS to achieve the desired result instead.
+
 
 ## Credits
 
@@ -425,7 +452,7 @@ Traversy Media for their [Flexbox Crash Course](https://youtu.be/3YW65K6LcIA?si=
 
 Content for the website was provided by Joan Fleetwood.  The About Me paragraph was edited by Emma Fleetwood.
 
-###  Media
+### Media
 
 #### Main Image and Gallery Images
 
@@ -439,10 +466,11 @@ This video was downloaded from Joan's [Vimeo account](https://vimeo.com/user1464
 
 The image of studio lights on a plain grey background was downloaded from [iStock.com](https://istock.com).
   
-###  Acknowledgments
+### Acknowledgments
 
 * My mentor Brian Macharia for his help and clear explanations of what needed to be done
 * Amy Richardson for facilitating our weekly standups and being a font of information and encouragement
 * Terry Loughran for his advice on how long the README might take to do!
 * Tom Hall on Slack for taking the time to peer review my code
 * Ahmed_3P on Slack for peer reviewing my code and making suggestions
+* My friends and family for testing the project on their devices and offering words of encouragement
