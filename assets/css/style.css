@@ -39,7 +39,6 @@ section {
 /* Header */
 header {
     background-color: var(--grey);
-    padding: 0 1rem;
     width: 100%;
     position: fixed;
     z-index: 99;
@@ -52,6 +51,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding: 0 5rem;
 }
 
 /* Remove underline from and change colour of links */
